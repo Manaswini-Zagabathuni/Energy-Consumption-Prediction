@@ -15,12 +15,10 @@ This project builds and evaluates several linear regression models to predict en
 
 ## 📂 Project Structure
 
-```
-├── AML_Q_2.ipynb           # Main Jupyter Notebook (full pipeline)
+├── code.ipynb              # Main Jupyter Notebook (full pipeline)
 ├── train_energy_data.csv   # Training dataset
 ├── test_energy_data.csv    # Test dataset
 └── README.md
-```
 
 ---
 
@@ -73,31 +71,25 @@ This project builds and evaluates several linear regression models to predict en
 
 ### Prerequisites
 
-```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-```
 
 ### Run the Notebook
 
-```bash
-jupyter notebook AML_Q_2.ipynb
-```
+jupyter notebook code.ipynb
 
-> Make sure `train_energy_data.csv` and `test_energy_data.csv` are in the same directory as the notebook.
+Make sure train_energy_data.csv and test_energy_data.csv are in the same directory as the notebook.
 
 ---
 
 ## 📊 Results Summary
 
-| Model | Regularization | Alpha | Mean CV RMSE |
-|---|---|---|---|
-| Linear Regression | None | — | baseline |
-| Ridge | L2 | 0.0001 | — |
-| Lasso | L1 | 0.0001 | best (linear) |
-| ElasticNet | L1 + L2 | 0.0001 | — |
-| **Poly Lasso (Deg 2)** | **L1** | **0.1** | **best overall** |
-
-> Exact RMSE values are available in the notebook output cells.
+|     Model            | Regularization |   Alpha  |  Mean CV RMSE  |
+|----------------------|----------------|----------|----------------|
+|   Linear Regression  |     None       |    —     |    baseline    |
+|       Ridge          |      L2        |   0.0001 |       —        |
+|       Lasso          |      L1        |   0.0001 |  best (linear) |
+|     ElasticNet       |    L1 + L2     |   0.0001 |       —        |
+|**Poly Lasso (Deg 2)**|    **L1**      | **0.1**  |**best overall**|
 
 ---
 
@@ -107,9 +99,3 @@ jupyter notebook AML_Q_2.ipynb
 - **pandas**, **NumPy** — data manipulation
 - **matplotlib**, **seaborn** — visualization
 - **scikit-learn** — preprocessing, modeling, evaluation
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
