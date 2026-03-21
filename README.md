@@ -1,10 +1,10 @@
-# ⚡ Energy Consumption Prediction
+#  Energy Consumption Prediction
 
 A machine learning project that predicts residential and commercial **energy consumption** using regression techniques, regularization strategies, and polynomial feature expansion.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project builds and evaluates several linear regression models to predict energy usage based on building characteristics and environmental factors. It covers the full ML pipeline — from exploratory data analysis to final model evaluation on unseen test data.
 
@@ -13,7 +13,7 @@ This project builds and evaluates several linear regression models to predict en
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ├── code.ipynb              # Main Jupyter Notebook (full pipeline)
 ├── train_energy_data.csv   # Training dataset
@@ -22,7 +22,7 @@ This project builds and evaluates several linear regression models to predict en
 
 ---
 
-## 🔍 Features Used
+##  Features Used
 
 | Feature | Type |
 |---|---|
@@ -37,7 +37,7 @@ This project builds and evaluates several linear regression models to predict en
 
 ---
 
-## 🧪 Methodology
+##  Methodology
 
 ### 1. Exploratory Data Analysis (EDA)
 - Statistical summary of training data
@@ -67,7 +67,7 @@ This project builds and evaluates several linear regression models to predict en
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### Prerequisites
 
@@ -81,7 +81,7 @@ Make sure train_energy_data.csv and test_energy_data.csv are in the same directo
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 |     Model            | Regularization |   Alpha  |  Mean CV RMSE  |
 |----------------------|----------------|----------|----------------|
@@ -93,7 +93,7 @@ Make sure train_energy_data.csv and test_energy_data.csv are in the same directo
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3**
 - **pandas**, **NumPy** — data manipulation
