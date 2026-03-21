@@ -16,6 +16,7 @@ This project builds and evaluates several linear regression models to predict en
 ##  Project Structure
 
 ├── code.ipynb              # Main Jupyter Notebook (full pipeline)
+
 ├── train_energy_data.csv   # Training dataset
 
 ├── test_energy_data.csv    # Test dataset
