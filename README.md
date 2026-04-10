@@ -97,7 +97,7 @@ Make sure train_energy_data.csv and test_energy_data.csv are in the same directo
 ---
 
 ##  Tech Stack
-
+ 
 - **Python 3**
 - **pandas**, **NumPy** — data manipulation
 - **matplotlib**, **seaborn** — visualization
