@@ -3,7 +3,7 @@
 A machine learning project that predicts residential and commercial **energy consumption** using regression techniques, regularization strategies, and polynomial feature expansion.
  
 ---
-
+ 
 ##  Project Overview
 
 This project builds and evaluates several linear regression models to predict energy usage based on building characteristics and environmental factors. It covers the full ML pipeline — from exploratory data analysis to final model evaluation on unseen test data.
