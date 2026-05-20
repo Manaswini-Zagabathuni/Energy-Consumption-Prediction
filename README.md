@@ -1,7 +1,7 @@
 #  Energy Consumption Prediction
 
 A machine learning project that predicts residential and commercial **energy consumption** using regression techniques, regularization strategies, and polynomial feature expansion.
-
+ 
 ---
 
 ##  Project Overview
